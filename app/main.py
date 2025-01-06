@@ -1,11 +1,11 @@
 import streamlit as st
-from file_processor.pdf_reader import PDFReader
-from file_processor.docx_reader import DocxReader
-from file_processor.text_reader import TextReader
-from analyzers.score_calculator import ScoreCalculator
-from analyzers.word_cloud_generator import WordCloudGenerator
-from analyzers.keyword_matcher import KeywordMatcher
-from resume_generator.ai_generator import ResumeGenerator
+from jobdone.file_processor.pdf_reader import PDFReader
+from jobdone.file_processor.docx_reader import DocxReader
+from jobdone.file_processor.text_reader import TextReader
+from jobdone.analyzers.score_calculator import ScoreCalculator
+from jobdone.analyzers.word_cloud_generator import WordCloudGenerator
+from jobdone.analyzers.keyword_matcher import KeywordMatcher
+from jobdone.resume_generator.ai_generator import ResumeGenerator
 import re
 
 def set_page_config():
