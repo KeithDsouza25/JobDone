@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+
+/* Base styles */
+.stApp {
+    background-color: #00204a !important;
+}
+
+/* Main content area */
+.main .block-container {
+    padding: 2rem;
+}
+
+/* Title styling */
+.main-title {
+    color: #ffffff !important;
+    text-align: center !important;
+    font-size: 2.5rem !important;
+    font-weight: 700 !important;
+    margin-bottom: 1rem !important;
+}
+
+.subtitle {
+    color: #00bbf0 !important;
+    text-align: center !important;
+    font-size: 1.2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+/* Remove the extra boxes */
+.upload-section {
+    display: none !important;
+}
+
+/* File uploader styling */
+[data-testid="stFileUploader"] {
+    background-color:#00204a!important;
+    border: none !important;
+    border-radius: 10px !important;
+    padding: 20px !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+[data-testid="stFileUploader"] > div {
+    color: white !important;
+}
+
+/* Browse files button */
+[data-testid="stFileUploader"] button {
+    background-color: #00bbf0 !important;
+    color: white !important;
+    border: none !important;
+    padding: 0.5rem 1rem !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease !important;
+}
+
+[data-testid="stFileUploader"] button:hover {
+    background-color: #007fa4 !important;
+}
+
+/* Metric container styling */
+[data-testid="metric-container"] {
+    background-color: rgba(0, 59, 128, 0.5) !important;
+    border: 1px solid #00bbf0 !important;
+    padding: 1rem !important;
+    border-radius: 8px !important;
+    color: #ffffff !important;
+}
+
+/* Text elements */
+p, h1, h2, h3, h4, h5, h6, label {
+    color: #ffffff !important;
+}
+   span {
+    color: white !important;
+}
+
+/* Button styling */
+.stButton > button {
+    background-color: #00bbf0 !important;
+    color: white !important;
+    border: none !important;
+    padding: 0.75rem 1.5rem !important;
+    border-radius: 5px !important;
+    transition: all 0.3s ease !important;
+}
+
+.stButton > button:hover {
+    background-color: #007fa4 !important;
+}
+
+/* Download button */
+.stDownloadButton > button {
+    background-color: #27ae60 !important;
+    color: white !important;
+}
+
+/* Ensure text inputs are visible */
+textarea, .stTextArea textarea {
+    background-color: rgba(0, 59, 128, 0.5) !important;
+    color: #ffffff !important;
+    border: 1px solid #00bbf0 !important;
+}
+
+/* File uploader text */
+.uploadedFileName {
+    color: #ffffff !important;
+}
+
+/* Horizontal rule */
+hr {
+    border-color: rgba(0, 187, 240, 0.2) !important;
+    margin: 2rem 0 !important;
+}
+
+/* Upload section headers */
+.upload-label {
+    color: rgba(0, 187, 240, 0.2);
+    font-size: 1.8rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+/* Style for the text areas */
+.stTextArea textarea {
+    background-color: #ffffff !important;
+    color: #000000 !important;
+    border: 1px solid #00bbf0 !important;
+    border-radius: 5px !important;
+    padding: 10px !important;
+    margin-top: 1rem !important;
+    min-height: 150px !important;
+    width: 100% !important;
+}
+
+.stTextArea textarea:focus {
+    border-color: #ffffff !important;
+    box-shadow: 0 0 0 2px rgba(0,187,240,0.2) !important;
+}
+
+/* Text area label styling */
+.stTextArea label {
+    color: #ffffff !important;
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem !important;
+}
+
+/* Remove any remaining dotted borders */
+div[data-testid="stVerticalBlock"] > div {
+    border: none !important;
+}
+
+/* Text label styling */
+.text-label {
+    color: #ffffff !important;
+    font-size: 1rem !important;
+    margin-top: 1.5rem !important;
+    margin-bottom: 0.5rem !important;
+}
